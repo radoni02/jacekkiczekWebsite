@@ -1,0 +1,13 @@
+.photo-container {
+    position: relative;
+     margin-top: 5%;
+  }
+  .photo-caption {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Kolor tła dla podpisu */
+    padding: 8px 16px; /* Padding dla podpisu */
+    border-radius: 4px; /* Zaokrąglenie rogów dla podpisu */
+  }
