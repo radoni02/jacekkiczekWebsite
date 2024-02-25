@@ -13,11 +13,5 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'frontForEmailSender';
 
-  constructor(private router: Router) {
-    let path = localStorage.getItem('path');
-    if(path) {
-      localStorage.removeItem('path');
-      this.router.navigate([path]);
-    }
-  }
+  
 }
